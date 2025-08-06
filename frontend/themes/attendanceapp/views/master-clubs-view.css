@@ -1,0 +1,24 @@
+.master-clubs-view {
+  display: block;
+  height: 100%;
+}
+.master-clubs-view vaadin-grid-pro {
+  height: 100%;
+}
+.master-clubs-view vaadin-grid-filter,
+.master-clubs-view vaadin-grid-filter > * {
+  width: 100%;
+}
+.master-clubs-view vaadin-grid-pro vaadin-horizontal-layout {
+  align-items: center;
+}
+.master-clubs-view vaadin-grid-pro img {
+  border-radius: 50%;
+  flex-shrink: 0;
+  height: var(--lumo-size-m);
+  width: var(--lumo-size-m);
+}
+.master-clubs-view .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
